@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QWidget" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>234</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Checkpoint Help</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="add_goal_label">
+     <property name="text">
+      <string>1. Add goals using the Add Goal button</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="edit_goal_label">
+     <property name="text">
+      <string>2. Edit goals by selecting a goal on the left and using the Edit Goal button. A popup window will appear that allows you to edit a goal's information. Press Edit to save changes and Cancel to discard them. If a goal's progress value is greater than or equal to it's goal value, and the goal value isn't 0.0, the goal is transferred to the completed goals list.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="remove_goal_label">
+     <property name="text">
+      <string>3. Remove goals by selecting them from the view on the left and pressing the Remove Goal button.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="select_goal_label">
+     <property name="text">
+      <string>4. Select goals from the view on the left of the main window. When selecting a goal, it's information will be displayed on the left side of the window.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="file_label">
+     <property name="text">
+      <string>5. You can save and open files using the application's menu bar. File -&gt; Open opens a new file, and File-&gt;Save saves the current file (and creates a new file if it's not working with an existing one.)</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

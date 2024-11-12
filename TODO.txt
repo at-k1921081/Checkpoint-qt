@@ -1,0 +1,9 @@
+Optional features to implement:
+1. Add additional columns to the list widget to show progress and category
+2. Add an undo and redo feature that can undo and redo actions done while using Checkpoint with a given file
+3. Add a small web page with detailed documentation about Checkpoint
+
+Administrative tasks to do:
+1. Upload Checkpoint to github. Add an ABOUTME that describes what it is, what it does, and how to use it. Include an image of it as an illustration.
+2. Compile and test Checkpoint on Linux. Mention on github that the app has been tested on both Windows and Linux.
+3. Package the application neatly into a folder. Include both the windows and linux versions.
